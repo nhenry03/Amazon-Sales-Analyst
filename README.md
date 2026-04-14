@@ -31,7 +31,7 @@ Amazon Sales Analytics Project/
 |---|---|
 | **Language** | Python 3 |
 | **Data Manipulation** | pandas |
-| **Database** | PostgreSQL (local) |
+| **Database** | PostgreSQL |
 | **ORM / DB Connector** | SQLAlchemy |
 | **SQL Analysis** | PostgreSQL SQL |
 | **Visualization** | Power BI |
@@ -99,31 +99,21 @@ Business questions answered via SQL queries directly against the PostgreSQL data
 
 ## 📈 Dashboard
 
-> 🚧 *Power BI dashboard coming soon — will be added here once published.*
+> 🚧 *Power BI dashboard*
 
 The dashboard will visualise:
-- Average discount by category
-- High vs. Low discount engagement comparison (clustered bar)
-- Top products by promotion duration (horizontal bar)
-- Promotions started per month (column chart)
-- Review volume by category
+- KPIs (Card)
+- Top 15 products with highest discount percentage (Bar Chart)
+- Monthly Active Promotions (Line Chart)
+- Average actual price vs average discount price in each category (Clustered Bar Chart)
+- Market share - Top 15 (Treemap)
+
+<img width="1610" height="902" alt="image" src="https://github.com/user-attachments/assets/730f6b5e-bcdb-4d6a-b5e1-54a078bacc70" />
+
 
 ---
 
 ## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.10+
-- PostgreSQL installed and running locally
-- A `.env` file in the project root with the following:
-
-```
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=your_database_name
-DB_USER=your_username
-DB_PASSWORD=your_password
-```
 
 ### Setup
 
